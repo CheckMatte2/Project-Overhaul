@@ -22,9 +22,11 @@ This Project was done on Kali Linux 2021
  2. You will need a twilio account as you need there tokens to send the SMS message
  3. Need a Wireless Adapter that is capable of packet capture and injection
  4. Once your capture is complete youll need to start up the second program in order to crack the hashes
+ 5. A password is required to start the first script currently it is just located in the script for now.
  
  # Planned Updates to script
  * Merge both scripts into one whole script
+ * Find a better way to secure the script with a password
  * Option of using hashcat and or John the Ripper
  * Add other wireless features(NMAP, etc)
  * Add a start menu so user can select what they would like to do

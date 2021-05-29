@@ -30,4 +30,5 @@ This Project was done on Kali Linux 2021
  * Option of using hashcat and or John the Ripper
  * Add other wireless features(NMAP, etc)
  * Add a start menu so user can select what they would like to do
+ * Add an install file to install all tools.
  * Be able to crack WPA3 hashes

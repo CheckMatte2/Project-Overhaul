@@ -18,3 +18,9 @@ The tools required for this project to work are:
  2. You will need a twilio account as you need there tokens to send the SMS message
  3. Need a Wireless Adapter that is capable of packet capture and injection
  4. Once your capture is complete youll need to start up the second program in order to crack the hashes
+ 
+ #Planned Updates
+ * Merge both scripts into one whole script
+ * Add other hash formats
+ * Add other wireless features(NMAP, etc)
+ * Add a start menu so user can select what they would like to do

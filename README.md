@@ -10,15 +10,12 @@ This Project was done on Kali Linux 2021
 
 # Tools Needed
 
+  * Hcxdumptool (https://github.com/ZerBea/)
+  * Hcxtools (https://github.com/ZerBea/)
   * Hashcat (https://github.com/hashcat)
-  
   * Twilio (https://www.twilio.com/)
-  
-  * aircrack-ng (https://www.aircrack-ng.org/)
-  
-  * hcxdumptool (https://github.com/ZerBea/)
-  
-  * hcxtools (https://github.com/ZerBea/)
+  * Aircrack-ng (https://www.aircrack-ng.org/)
+
 # Notes  
  A couple of notes must be taken into account
  1. Must be ran with sudo priviledges

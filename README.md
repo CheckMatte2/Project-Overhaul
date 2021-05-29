@@ -3,15 +3,15 @@ This was my Information Systems Security capstone project. Project Overhaul is a
 
 The tools required for this project to work are:
 
-  hashcat (https://github.com/hashcat)
+  * Hashcat (https://github.com/hashcat)
   
-  Twilio (https://www.twilio.com/)
+  * Twilio (https://www.twilio.com/)
   
-  aircrack-ng (https://www.aircrack-ng.org/)
+  * aircrack-ng (https://www.aircrack-ng.org/)
   
-  hcxdumptool (https://github.com/ZerBea/)
+  * hcxdumptool (https://github.com/ZerBea/)
   
-  hcxtools (https://github.com/ZerBea/)
+  * hcxtools (https://github.com/ZerBea/)
   
  A couple of notes must be taken into account
  1. Must be ran with sudo priviledges

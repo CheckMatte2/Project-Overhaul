@@ -1,7 +1,7 @@
 # Projects Overhaul
 This was my Information Systems Security capstone project. Project Overhaul is an automated python script that will capture WPA/WPA2 Network handshakes and convert the data into a readable format so that the password cracking tool Hashcat can attempt to crack the hashses. If Hashcat is succesful in cracking any of the hashes it will send an automated SMS(using Twilio) to the user letting them know what password has been cracked and helpful tips on how to mitigate these kind of attack.
 
-The tools required for this project to work are:
+# Tools Needed
 
   * Hashcat (https://github.com/hashcat)
   
@@ -12,7 +12,7 @@ The tools required for this project to work are:
   * hcxdumptool (https://github.com/ZerBea/)
   
   * hcxtools (https://github.com/ZerBea/)
-  
+# Notes  
  A couple of notes must be taken into account
  1. Must be ran with sudo priviledges
  2. You will need a twilio account as you need there tokens to send the SMS message

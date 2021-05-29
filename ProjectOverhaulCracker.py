@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 #Project Overhaul
-#Filename: capstone.py
+#Filename: ProjectOverhaulCracker.py
 #ITSC-310 System Security Capstone
-#Author: Ryan Leonard
+#Author: Checkmatte
 #Python Script that will crack WPA_PMKID-PBKDF2 hashes
 #############################################################################################################################################################################################################
 import os

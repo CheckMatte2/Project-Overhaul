@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 #Project Overhaul
-#Filename: capstone.py
+#Filename: ProjectOverhaul.py
 #ITSC-310 System Security Capstone
-#Author: Ryan Leonard or Checkmatte
-#Python Script that will get Wireless Network handshakes
+#Author: Checkmatte
+#Python Script that will automate capturing WPA/WPA2 handshakes
 #############################################################################################################################################################################################################
 import os
 import subprocess
@@ -33,7 +33,7 @@ def Startup():
 	print("               |__/                                                           ")
 	print("****************************************************************")
 	print("*                                                              *")
-	print("*                     Created by: Ryan Leonard                 *")
+	print("*                     Created by: Checkmatte                  *")
 	print("*                                                              *")
 	print("*                         Course: ITSC-310                     *")
 	print("*                                                              *")
@@ -51,7 +51,7 @@ def Startup():
 		
 		#Waits for 90 seconds to scan as many possible AP's as the program can find.
 		print("Sleeping for 90 seconds to scan area!") 	
-		time.sleep(30)
+		time.sleep(90)
 		Monitor_Mode.send_signal(signal.SIGINT)
 
 		Conversion = subprocess.Popen("hcxpcaptool -z HASH.pmk results*",shell=True)
@@ -73,14 +73,7 @@ def Startup():
 	for i in File_Line:
 		if i:
 			Line_Count += 1
-			
-	#Checks whether the file has enough hashes or not
-	if Line_Count > 2:
-		print("Starting Program")
-	if Line_Count < 1:
-		print("Not enough data in file!")
-		
-	
+					
 #This is just for if the password was entered incorrectly too many times		
 def Failure():
 	for i in range(5):

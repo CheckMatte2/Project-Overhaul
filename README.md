@@ -19,7 +19,7 @@ The tools required for this project to work are:
  3. Need a Wireless Adapter that is capable of packet capture and injection
  4. Once your capture is complete youll need to start up the second program in order to crack the hashes
  
- #Planned Updates
+ # Planned Updates
  * Merge both scripts into one whole script
  * Add other hash formats
  * Add other wireless features(NMAP, etc)
